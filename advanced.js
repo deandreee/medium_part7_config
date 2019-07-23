@@ -1,5 +1,5 @@
 module.exports = {
-ATR_ADX: {
+  ATR_ADX: {
     ATR: 25,
     ADX: 35,
     candleSize: 120,
@@ -31,13 +31,13 @@ ATR_ADX: {
   HL: {
     Period: 25
   },
-IWannaBeRich: {
+  IWannaBeRich: {
     macd: { up: 0, long: 26, down: 0, short: 12, signal: 9, persistence: 1 },
     rsi: { low: 30, high: 60, interval: 10, persistence: 1 },
     candleSize: 120,
     bbands: { NbDevUp: 2, NbDevDn: 4, TimePeriod: 20 }
   },
-"MACD-CCI-RSI": {
+  "MACD-CCI-RSI": {
     MACD: {
       short: 15,
       long: 30,
@@ -80,7 +80,7 @@ IWannaBeRich: {
     ROC: 6,
     ROC_lvl: 0
   },
-RBB_ADX_BB: {
+  RBB_ADX_BB: {
     ADX: { adx: 5, ADX_low: 30, ADX_high: 70 },
     BEAR: { rsi: 5, low: 35, high: 70, mod_low: -5, mod_high: 10 },
     BULL: { rsi: 10, low: 60, high: 70, mod_low: -10, mod_high: 10 },
@@ -122,7 +122,7 @@ RBB_ADX_BB: {
     stop_percent: 0.96,
     stop_enabled: true
   },
-SchaffTrendCycle: {
+  SchaffTrendCycle: {
     factor: 0.7,
     stcLength: 10,
     slowLength: 150,
@@ -135,8 +135,8 @@ SchaffTrendCycle: {
     adjust_false_signal: true,
     threshold_adjustment: 5
   },
-  
-stratego_smaxv7_SL: {
+
+  stratego_smaxv7_SL: {
     sma_up: 20,
     fast_sma: 10,
     slow_sma: 150,
@@ -158,7 +158,7 @@ stratego_smaxv7_SL: {
     exit_slow: 20,
     trailingStop: 15
   },
-w2: {
+  w2: {
     pd: 40,
     lb: 25,
     ph: 0.7,
@@ -171,4 +171,4 @@ w2: {
     candleSize: 120,
     rsi_interval: 30
   }
-  }
+};
